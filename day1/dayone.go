@@ -83,6 +83,7 @@ func Atoi(s string) int {
 	res, _ := strconv.Atoi(s)
 	return res
 }
+
 func main() {
 	fmt.Println("Part 1: ",
 		part1(ReadFileAsLines("input.txt")))
